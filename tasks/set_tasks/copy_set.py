@@ -6,10 +6,8 @@
 
 
 def copy_set(collection: set) -> set:
-    # TODO вставить код сюда
-    collection_copy = collection
-    return collection_copy
-
+    copy_set = collection.copy
+    return copy_set
 
 if __name__ == '__main__':
     some_set = {1, 2, 3}

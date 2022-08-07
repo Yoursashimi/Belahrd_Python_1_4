@@ -21,12 +21,7 @@ user_data = {
 
 
 def clear_list(collection: list) -> list:
-    """Очищает переданный список
-
-    :param collection: список для очищения
-    :return: очищенный список
-    """
-    # TODO вставить код сюда
+    collection.clear()
     return collection
 
 

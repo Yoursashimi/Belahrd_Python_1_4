@@ -15,15 +15,21 @@
 
 
 def month_to_season(month: int) -> str:
-    """Возвращает сезон по его номеру
-
-    :param month: номер сезона
-    :type month: int
-
-    :return: название сезона, например "зима"
-    :rtype: str
-    """
-    season = None
+    month_t_s = {
+        1: "Зима",
+        2: "Зима",
+        3: "Весна",
+        4: "Весна",
+        5: "Весна",
+        6: "Лето",
+        7: "Лето",
+        8: "Лето",
+        9: "Осень",
+        10: "Осень",
+        11: "Осень",
+        12: "Зима"
+    }
+    season = month_t_s.get(month)
     return season
 
 

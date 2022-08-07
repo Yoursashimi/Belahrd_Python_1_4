@@ -6,10 +6,11 @@
 """
 
 
-def common_elements(list_1: list, list_2: list) -> set:
-    # TODO вставить код сюда
-    result = None
-    return result
+def common_elements(list_1: list, list_2) -> set:
+    list_1 = set(list_1)
+    list_1.update(list_2)
+    return list_1
+
 
 
 if __name__ == '__main__':

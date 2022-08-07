@@ -14,9 +14,11 @@ WORKERS = {
 }
 
 
+
 def get_workers(workers: dict):
-    # TODO вставить код сюда
-    result = None
+    worker = workers.keys()
+    date_of_birth = workers.values()
+    result = workers.items()
     return result
 
 

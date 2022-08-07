@@ -27,9 +27,10 @@ users = {
 }
 
 
+
 def del_user(users_dict: dict, login: Any) -> dict:
-    # TODO вставить код сюда
-    return login
+    users_dict.pop(login)
+    return users
 
 
 if __name__ == '__main__':

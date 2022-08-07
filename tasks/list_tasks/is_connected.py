@@ -17,15 +17,7 @@ participants = ['Андрей', 'Ольга', 'Сергей', 'Виктор', '�
 
 
 def is_connected(p_list: list, user: Any) -> bool:
-    """
-    Проверяет, есть ли user в p_list
-
-    :param p_list: список участников
-    :param user: пользователь
-    :return: True или False
-    """
-    # TODO вставить код сюда
-    result = None
+    result = user in p_list
     return result
 
 
